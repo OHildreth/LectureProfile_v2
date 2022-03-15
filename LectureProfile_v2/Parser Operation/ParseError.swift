@@ -12,5 +12,6 @@ extension FileParser {
         case notEnoughColumns
         case tooManyColumns
         case newCase
+        case newCase2
     }
 }
