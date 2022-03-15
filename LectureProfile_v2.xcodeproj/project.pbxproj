@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C07D82F227DAA78E00A8A420 /* LectureProfile_v2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D82F127DAA78E00A8A420 /* LectureProfile_v2App.swift */; };
+		C07D82F427DAA78E00A8A420 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D82F327DAA78E00A8A420 /* ContentView.swift */; };
+		C07D82F627DAA78F00A8A420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07D82F527DAA78F00A8A420 /* Assets.xcassets */; };
+		C07D82F927DAA78F00A8A420 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07D82F827DAA78F00A8A420 /* Preview Assets.xcassets */; };
+		C07D830227DAAA7F00A8A420 /* DataGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07D830127DAAA7F00A8A420 /* DataGraph.framework */; };
+		C07D830327DAAA7F00A8A420 /* DataGraph.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C07D830127DAAA7F00A8A420 /* DataGraph.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C07D830D27DAAEC400A8A420 /* XZData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D830727DAAEC400A8A420 /* XZData.swift */; };
+		C07D830E27DAAEC400A8A420 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D830827DAAEC400A8A420 /* DataModel.swift */; };
+		C07D830F27DAAEC400A8A420 /* GraphController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D830927DAAEC400A8A420 /* GraphController.swift */; };
+		C07D831027DAAEC400A8A420 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D830A27DAAEC400A8A420 /* GraphView.swift */; };
+		C07D831127DAAEC400A8A420 /* GraphViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D830B27DAAEC400A8A420 /* GraphViewRepresentable.swift */; };
+		C07D831227DAAEC400A8A420 /* Basic Script.dgraph in Resources */ = {isa = PBXBuildFile; fileRef = C07D830C27DAAEC400A8A420 /* Basic Script.dgraph */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C07D830427DAAA7F00A8A420 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C07D830327DAAA7F00A8A420 /* DataGraph.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C07D82EE27DAA78E00A8A420 /* LectureProfile_v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LectureProfile_v2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07D82F127DAA78E00A8A420 /* LectureProfile_v2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureProfile_v2App.swift; sourceTree = "<group>"; };
+		C07D82F327DAA78E00A8A420 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C07D82F527DAA78F00A8A420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C07D82F827DAA78F00A8A420 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C07D82FA27DAA78F00A8A420 /* LectureProfile_v2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LectureProfile_v2.entitlements; sourceTree = "<group>"; };
+		C07D830127DAAA7F00A8A420 /* DataGraph.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DataGraph.framework; path = LectureProfile_v2/DataGraph.framework; sourceTree = "<group>"; };
+		C07D830527DAABA500A8A420 /* LectureProfile_v2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LectureProfile_v2-Bridging-Header.h"; sourceTree = "<group>"; };
+		C07D830727DAAEC400A8A420 /* XZData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZData.swift; sourceTree = "<group>"; };
+		C07D830827DAAEC400A8A420 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		C07D830927DAAEC400A8A420 /* GraphController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphController.swift; sourceTree = "<group>"; };
+		C07D830A27DAAEC400A8A420 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		C07D830B27DAAEC400A8A420 /* GraphViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewRepresentable.swift; sourceTree = "<group>"; };
+		C07D830C27DAAEC400A8A420 /* Basic Script.dgraph */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "Basic Script.dgraph"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C07D82EB27DAA78E00A8A420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07D830227DAAA7F00A8A420 /* DataGraph.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C07D82E527DAA78E00A8A420 = {
+			isa = PBXGroup;
+			children = (
+				C07D82F027DAA78E00A8A420 /* LectureProfile_v2 */,
+				C07D82EF27DAA78E00A8A420 /* Products */,
+				C07D830027DAAA7F00A8A420 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C07D82EF27DAA78E00A8A420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C07D82EE27DAA78E00A8A420 /* LectureProfile_v2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C07D82F027DAA78E00A8A420 /* LectureProfile_v2 */ = {
+			isa = PBXGroup;
+			children = (
+				C07D830627DAAEC400A8A420 /* DataGraph Test Views */,
+				C07D830527DAABA500A8A420 /* LectureProfile_v2-Bridging-Header.h */,
+				C07D82F127DAA78E00A8A420 /* LectureProfile_v2App.swift */,
+				C07D82F327DAA78E00A8A420 /* ContentView.swift */,
+				C07D82F527DAA78F00A8A420 /* Assets.xcassets */,
+				C07D82FA27DAA78F00A8A420 /* LectureProfile_v2.entitlements */,
+				C07D82F727DAA78F00A8A420 /* Preview Content */,
+			);
+			path = LectureProfile_v2;
+			sourceTree = "<group>";
+		};
+		C07D82F727DAA78F00A8A420 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C07D82F827DAA78F00A8A420 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C07D830027DAAA7F00A8A420 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C07D830127DAAA7F00A8A420 /* DataGraph.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C07D830627DAAEC400A8A420 /* DataGraph Test Views */ = {
+			isa = PBXGroup;
+			children = (
+				C07D830727DAAEC400A8A420 /* XZData.swift */,
+				C07D830827DAAEC400A8A420 /* DataModel.swift */,
+				C07D830927DAAEC400A8A420 /* GraphController.swift */,
+				C07D830A27DAAEC400A8A420 /* GraphView.swift */,
+				C07D830B27DAAEC400A8A420 /* GraphViewRepresentable.swift */,
+				C07D830C27DAAEC400A8A420 /* Basic Script.dgraph */,
+			);
+			path = "DataGraph Test Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C07D82ED27DAA78E00A8A420 /* LectureProfile_v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07D82FD27DAA78F00A8A420 /* Build configuration list for PBXNativeTarget "LectureProfile_v2" */;
+			buildPhases = (
+				C07D82EA27DAA78E00A8A420 /* Sources */,
+				C07D82EB27DAA78E00A8A420 /* Frameworks */,
+				C07D82EC27DAA78E00A8A420 /* Resources */,
+				C07D830427DAAA7F00A8A420 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LectureProfile_v2;
+			productName = LectureProfile_v2;
+			productReference = C07D82EE27DAA78E00A8A420 /* LectureProfile_v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C07D82E627DAA78E00A8A420 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C07D82ED27DAA78E00A8A420 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C07D82E927DAA78E00A8A420 /* Build configuration list for PBXProject "LectureProfile_v2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C07D82E527DAA78E00A8A420;
+			productRefGroup = C07D82EF27DAA78E00A8A420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C07D82ED27DAA78E00A8A420 /* LectureProfile_v2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C07D82EC27DAA78E00A8A420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07D831227DAAEC400A8A420 /* Basic Script.dgraph in Resources */,
+				C07D82F927DAA78F00A8A420 /* Preview Assets.xcassets in Resources */,
+				C07D82F627DAA78F00A8A420 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C07D82EA27DAA78E00A8A420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07D82F427DAA78E00A8A420 /* ContentView.swift in Sources */,
+				C07D830E27DAAEC400A8A420 /* DataModel.swift in Sources */,
+				C07D830D27DAAEC400A8A420 /* XZData.swift in Sources */,
+				C07D830F27DAAEC400A8A420 /* GraphController.swift in Sources */,
+				C07D82F227DAA78E00A8A420 /* LectureProfile_v2App.swift in Sources */,
+				C07D831027DAAEC400A8A420 /* GraphView.swift in Sources */,
+				C07D831127DAAEC400A8A420 /* GraphViewRepresentable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C07D82FB27DAA78F00A8A420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "LectureProfile_v2/LectureProfile_v2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C07D82FC27DAA78F00A8A420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "LectureProfile_v2/LectureProfile_v2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C07D82FE27DAA78F00A8A420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LectureProfile_v2/LectureProfile_v2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LectureProfile_v2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LectureProfile_v2",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HRG.LectureProfile-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C07D82FF27DAA78F00A8A420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LectureProfile_v2/LectureProfile_v2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LectureProfile_v2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LectureProfile_v2",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HRG.LectureProfile-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C07D82E927DAA78E00A8A420 /* Build configuration list for PBXProject "LectureProfile_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07D82FB27DAA78F00A8A420 /* Debug */,
+				C07D82FC27DAA78F00A8A420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07D82FD27DAA78F00A8A420 /* Build configuration list for PBXNativeTarget "LectureProfile_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07D82FE27DAA78F00A8A420 /* Debug */,
+				C07D82FF27DAA78F00A8A420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C07D82E627DAA78E00A8A420 /* Project object */;
+}
