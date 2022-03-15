@@ -11,7 +11,7 @@ import SwiftUI
 class GraphView: NSView {
     var graphController: GraphController? = nil
 
-    private var graph: DPDrawingView = DPDrawingView()
+    private var graphView: DPDrawingView = DPDrawingView()
     
     convenience init(_ graphControllerIn: GraphController) {
         let newFrame = NSRect(origin: CGPoint(x: 0, y: 0), size: CGSize(width: 100.0, height: 100.0))
@@ -20,14 +20,15 @@ class GraphView: NSView {
         
         graphController = graphControllerIn
         
-        graph = DPDrawingView()
+        graphView = DPDrawingView()
         
-        graph = DPDrawingView()
-        graph.frame = newFrame
-        graph.autoresizingMask = [.width, .height]
+        //graphView = DPDrawingView()
         
-        self.addSubview(graph)
-        graphController?.dgController?.setDrawingView(graph)
+        graphView.frame = newFrame
+        graphView.autoresizingMask = [.width, .height]
+        
+        self.addSubview(graphView)
+        graphController?.dgController?.setDrawingView(graphView)
         
     }
     

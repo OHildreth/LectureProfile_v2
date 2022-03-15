@@ -13,12 +13,19 @@
 		C07D82F927DAA78F00A8A420 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07D82F827DAA78F00A8A420 /* Preview Assets.xcassets */; };
 		C07D830227DAAA7F00A8A420 /* DataGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07D830127DAAA7F00A8A420 /* DataGraph.framework */; };
 		C07D830327DAAA7F00A8A420 /* DataGraph.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C07D830127DAAA7F00A8A420 /* DataGraph.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C07D830D27DAAEC400A8A420 /* XZData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D830727DAAEC400A8A420 /* XZData.swift */; };
 		C07D830E27DAAEC400A8A420 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D830827DAAEC400A8A420 /* DataModel.swift */; };
 		C07D830F27DAAEC400A8A420 /* GraphController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D830927DAAEC400A8A420 /* GraphController.swift */; };
 		C07D831027DAAEC400A8A420 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D830A27DAAEC400A8A420 /* GraphView.swift */; };
 		C07D831127DAAEC400A8A420 /* GraphViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D830B27DAAEC400A8A420 /* GraphViewRepresentable.swift */; };
 		C07D831227DAAEC400A8A420 /* Basic Script.dgraph in Resources */ = {isa = PBXBuildFile; fileRef = C07D830C27DAAEC400A8A420 /* Basic Script.dgraph */; };
+		C0FAB94027E12FEF00EC8246 /* XZData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAB93627E12FEF00EC8246 /* XZData.swift */; };
+		C0FAB94127E12FEF00EC8246 /* DGDataColumnExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAB93727E12FEF00EC8246 /* DGDataColumnExtension.swift */; };
+		C0FAB94227E12FEF00EC8246 /* XZPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAB93827E12FEF00EC8246 /* XZPoint.swift */; };
+		C0FAB94327E12FEF00EC8246 /* ParseDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAB93A27E12FEF00EC8246 /* ParseDetails.swift */; };
+		C0FAB94427E12FEF00EC8246 /* FileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAB93B27E12FEF00EC8246 /* FileParser.swift */; };
+		C0FAB94527E12FEF00EC8246 /* ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAB93C27E12FEF00EC8246 /* ParseError.swift */; };
+		C0FAB94727E12FEF00EC8246 /* FileParser_oldMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAB93E27E12FEF00EC8246 /* FileParser_oldMethods.swift */; };
+		C0FAB94827E12FEF00EC8246 /* ParseSeparators.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAB93F27E12FEF00EC8246 /* ParseSeparators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,12 +51,19 @@
 		C07D82FA27DAA78F00A8A420 /* LectureProfile_v2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LectureProfile_v2.entitlements; sourceTree = "<group>"; };
 		C07D830127DAAA7F00A8A420 /* DataGraph.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DataGraph.framework; path = LectureProfile_v2/DataGraph.framework; sourceTree = "<group>"; };
 		C07D830527DAABA500A8A420 /* LectureProfile_v2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LectureProfile_v2-Bridging-Header.h"; sourceTree = "<group>"; };
-		C07D830727DAAEC400A8A420 /* XZData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZData.swift; sourceTree = "<group>"; };
 		C07D830827DAAEC400A8A420 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		C07D830927DAAEC400A8A420 /* GraphController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphController.swift; sourceTree = "<group>"; };
 		C07D830A27DAAEC400A8A420 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		C07D830B27DAAEC400A8A420 /* GraphViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewRepresentable.swift; sourceTree = "<group>"; };
 		C07D830C27DAAEC400A8A420 /* Basic Script.dgraph */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "Basic Script.dgraph"; sourceTree = "<group>"; };
+		C0FAB93627E12FEF00EC8246 /* XZData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZData.swift; sourceTree = "<group>"; };
+		C0FAB93727E12FEF00EC8246 /* DGDataColumnExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGDataColumnExtension.swift; sourceTree = "<group>"; };
+		C0FAB93827E12FEF00EC8246 /* XZPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZPoint.swift; sourceTree = "<group>"; };
+		C0FAB93A27E12FEF00EC8246 /* ParseDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseDetails.swift; sourceTree = "<group>"; };
+		C0FAB93B27E12FEF00EC8246 /* FileParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileParser.swift; sourceTree = "<group>"; };
+		C0FAB93C27E12FEF00EC8246 /* ParseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseError.swift; sourceTree = "<group>"; };
+		C0FAB93E27E12FEF00EC8246 /* FileParser_oldMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileParser_oldMethods.swift; sourceTree = "<group>"; };
+		C0FAB93F27E12FEF00EC8246 /* ParseSeparators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseSeparators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +98,8 @@
 		C07D82F027DAA78E00A8A420 /* LectureProfile_v2 */ = {
 			isa = PBXGroup;
 			children = (
+				C0FAB93527E12FEF00EC8246 /* Data */,
+				C0FAB93927E12FEF00EC8246 /* Parser Operation */,
 				C07D830627DAAEC400A8A420 /* DataGraph Test Views */,
 				C07D830527DAABA500A8A420 /* LectureProfile_v2-Bridging-Header.h */,
 				C07D82F127DAA78E00A8A420 /* LectureProfile_v2App.swift */,
@@ -114,7 +130,6 @@
 		C07D830627DAAEC400A8A420 /* DataGraph Test Views */ = {
 			isa = PBXGroup;
 			children = (
-				C07D830727DAAEC400A8A420 /* XZData.swift */,
 				C07D830827DAAEC400A8A420 /* DataModel.swift */,
 				C07D830927DAAEC400A8A420 /* GraphController.swift */,
 				C07D830A27DAAEC400A8A420 /* GraphView.swift */,
@@ -122,6 +137,28 @@
 				C07D830C27DAAEC400A8A420 /* Basic Script.dgraph */,
 			);
 			path = "DataGraph Test Views";
+			sourceTree = "<group>";
+		};
+		C0FAB93527E12FEF00EC8246 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C0FAB93627E12FEF00EC8246 /* XZData.swift */,
+				C0FAB93727E12FEF00EC8246 /* DGDataColumnExtension.swift */,
+				C0FAB93827E12FEF00EC8246 /* XZPoint.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C0FAB93927E12FEF00EC8246 /* Parser Operation */ = {
+			isa = PBXGroup;
+			children = (
+				C0FAB93A27E12FEF00EC8246 /* ParseDetails.swift */,
+				C0FAB93B27E12FEF00EC8246 /* FileParser.swift */,
+				C0FAB93C27E12FEF00EC8246 /* ParseError.swift */,
+				C0FAB93E27E12FEF00EC8246 /* FileParser_oldMethods.swift */,
+				C0FAB93F27E12FEF00EC8246 /* ParseSeparators.swift */,
+			);
+			path = "Parser Operation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,13 +233,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0FAB94827E12FEF00EC8246 /* ParseSeparators.swift in Sources */,
 				C07D82F427DAA78E00A8A420 /* ContentView.swift in Sources */,
 				C07D830E27DAAEC400A8A420 /* DataModel.swift in Sources */,
-				C07D830D27DAAEC400A8A420 /* XZData.swift in Sources */,
+				C0FAB94327E12FEF00EC8246 /* ParseDetails.swift in Sources */,
+				C0FAB94227E12FEF00EC8246 /* XZPoint.swift in Sources */,
 				C07D830F27DAAEC400A8A420 /* GraphController.swift in Sources */,
 				C07D82F227DAA78E00A8A420 /* LectureProfile_v2App.swift in Sources */,
 				C07D831027DAAEC400A8A420 /* GraphView.swift in Sources */,
 				C07D831127DAAEC400A8A420 /* GraphViewRepresentable.swift in Sources */,
+				C0FAB94527E12FEF00EC8246 /* ParseError.swift in Sources */,
+				C0FAB94127E12FEF00EC8246 /* DGDataColumnExtension.swift in Sources */,
+				C0FAB94027E12FEF00EC8246 /* XZData.swift in Sources */,
+				C0FAB94427E12FEF00EC8246 /* FileParser.swift in Sources */,
+				C0FAB94727E12FEF00EC8246 /* FileParser_oldMethods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
